@@ -8,12 +8,9 @@ namespace ComicBookGallery.Controllers
 {
     public class ComicBooksController : Controller
     {
-        public ContentResult Detail()
+        public ActionResult Detail()
         {
-            if(DateTime.Today.DayOfWeek == DayOfWeek.Monday){
-                return Content($"Today is {DayOfWeek.Monday.ToString()}");
-            }
-            return Content("HEY");
+            return View();
         }
     }
 }

@@ -92,7 +92,7 @@
     <Compile Include="Controllers\ComicBooksController.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Detail.cshtml" />
+    <Content Include="Views\ComicBooks\Detail.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
